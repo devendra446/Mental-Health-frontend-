@@ -9,11 +9,16 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    // Removed: componentTagger()
   ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    outDir: "dist",
+    emptyOutDir: true,
+  },
+  base: "./", // <-- important for correct asset paths on Vercel
 }));
+
