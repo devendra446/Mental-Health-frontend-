@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+Mental Health Analysis Project
+Project Info
+This is my personal project focused on analyzing and visualizing mental health-related data and patterns.
 
-## Project info
+Live URL: []
 
-**URL**: https://lovable.dev/projects/07c35f47-43db-455a-93fa-18312c7fe96f
+How to Edit and Run This Project Locally
+You can work on this project in your preferred IDE.
 
-## How can I edit this code?
+Prerequisites
+Make sure you have Node.js and npm installed.
+You can install Node.js via nvm.
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/07c35f47-43db-455a-93fa-18312c7fe96f) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Steps to Run Locally
+sh
+Copy
+Edit
+# Step 1: Clone the repository using the project’s Git URL
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install the necessary dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with auto-reloading
 npm run dev
-```
+Editing Directly on GitHub
+Navigate to the desired file(s) in your repository.
 
-**Edit a file directly in GitHub**
+Click the Edit button (pencil icon) in the file view.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Make your changes and commit them.
 
-**Use GitHub Codespaces**
+Using GitHub Codespaces
+Go to the main page of your repository.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the Code button (green) and open the Codespaces tab.
 
-## What technologies are used for this project?
+Click New codespace to launch a cloud development environment.
 
-This project is built with:
+Edit files and commit/push changes as needed.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Technologies Used
+Vite – Fast frontend build tool
 
-## How can I deploy this project?
+TypeScript – Typed JavaScript
 
-Simply open [Lovable](https://lovable.dev/projects/07c35f47-43db-455a-93fa-18312c7fe96f) and click on Share -> Publish.
+React – UI library
 
-## Can I connect a custom domain to my Lovable project?
+shadcn-ui – Pre-built UI components
 
-Yes, you can!
+Tailwind CSS – Utility-first CSS framework
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deployment
+You can deploy this project using any static site hosting service, such as:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Vercel
+
+Netlify
+
+GitHub Pages
+
+Render (Static Hosting)
+
